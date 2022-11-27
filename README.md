@@ -10,3 +10,8 @@ pipenv install
 See documentation of how to use pipenv
 - https://pipenv.pypa.io/en/latest/
 - https://stackoverflow.com/a/52172848/12213877
+
+### How to run the app:
+```
+uvicorn main:app --reload
+```
